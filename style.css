@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    position: relative;
+}
+
+.img_wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image{
+    width: 50vw;
+    height: 50vh;
+}
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
