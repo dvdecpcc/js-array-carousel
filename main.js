@@ -1,9 +1,9 @@
 const imagesArray =[
-    '01.jpg',
-    '02.jpg',
-    '03.jpg',
-    '04.jpg',
-    '05.jpg'
+    '/img/01.jpg',
+    '/img/02.jpg',
+    '/img/03.jpg',
+    '/img/04.jpg',
+    '/img/05.jpg'
 ]
 
 const imagesDom = document.querySelector('.images');
