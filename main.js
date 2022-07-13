@@ -1,17 +1,16 @@
 const imagesArray =[
-    '/img/01.jpg',
-    '/img/02.jpg',
-    '/img/03.jpg',
-    '/img/04.jpg',
-    '/img/05.jpg'
+    "img/01.jpg",
+    "img/02.jpg",
+    "img/03.jpg",
+    "img/04.jpg",
+    "img/05.jpg"
 ]
 
+let activeImg = 0;
 const imagesDom = document.querySelector('.images');
 
-let activeImg = 0;
-
 for(let x = 0; x<imagesArray.length; x++){
-    imagesDom.innerHTML+= <div class='image'><img class="img" src = "$(imagesArra[x]9)"></img></div>
+    imagesDom.innerHTML+= `<div class="image"><img class="img" src = "${imagesArra[x]}"></div>`
 }
 
 const imageList = document.getElementsByClassName('image');
@@ -29,8 +28,6 @@ next.addEventListener('click',
         }
     }
 )
-
-
 
 prev.addEventListener('click',
     function(){
