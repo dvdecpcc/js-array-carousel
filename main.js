@@ -10,7 +10,7 @@ let activeImg = 0;
 const imagesDom = document.querySelector('.images');
 
 for(let x = 0; x<imagesArray.length; x++){
-    imagesDom.innerHTML+= `<div class="image"><img class="img" src = "${imagesArra[x]}"></div>`
+    imagesDom.innerHTML+= `<div class="image"><img class="img" src = "${imagesArray[x]}"></div>`
 }
 
 const imageList = document.getElementsByClassName('image');
